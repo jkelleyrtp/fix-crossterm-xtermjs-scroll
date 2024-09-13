@@ -1,0 +1,8 @@
+[package]
+name = "tui-dont-takeover"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ratatui = {version = "0.28.1" }
+tokio = { version = "1.40.0", features = ["full"] }
